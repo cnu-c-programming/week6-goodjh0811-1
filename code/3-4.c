@@ -8,6 +8,6 @@ int main() {
     int x, y;
     scanf("%d %d", &x, &y);
 
-    printf("%d\n",        );
+    printf("%d\n", *(*(p + x) + y));
 }
 
