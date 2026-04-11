@@ -1,4 +1,4 @@
-inlcude <stdio.h>
+include <stdio.h>
 
 int main() {
     int arr3 [2][3][4] = { 0 };
@@ -13,7 +13,7 @@ int main() {
     printf("%p\n", (void*)p);
     printf("%p\n", (void*)*p);
     printf("%p\n", (void*)**p);
-    printf("%p\n", ***p);
+    printf("%d\n", ***p);
 
 }
 
