@@ -5,7 +5,7 @@ int main() {
 
   for (int i = 0; i < 5; i++) {
       for (int j = 0; ; j++) {
-          char c =                ;
+          char c = *(p + i);
           if (c == '\0')
               break;
           printf("%c", c);
