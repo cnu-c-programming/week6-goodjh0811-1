@@ -3,9 +3,9 @@
 int main() {
     int arr[2][3] = {{1, 2, 3}, {4, 5, 6}};
 
-    int  p1      = &arr;
-    int  p2      = &arr[0];
-    int  p3      = &arr[0][0];
+    int  (*p1)[2][3] = &arr;
+    int  (*p2)[3] = &arr[0];
+    int  *p3 = &arr[0][0];
 
     printf("%p\n", (void*)p1);
     printf("%p\n", (void*)p2);
